@@ -31,7 +31,7 @@ npm test
 npm run start
 ```
 
-## Rating guidance (how to reach 8-10/10)
+## Rating guidance 
 
 Follow the `RATING.md` checklist included in the repo. Key points:
 - Provide clear README, architecture diagrams and example usage.
