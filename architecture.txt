@@ -1,0 +1,12 @@
+Project architecture (add a diagram image here - docs/architecture.png)
+
+- Contracts:
+  - ExampleToken (ERC20)
+  - SimpleStaking
+
+- Backend:
+  - Hardhat scripts for deployment
+  - Tests (Mocha/Chai)
+
+- Frontend:
+  - React + Ethers.js for wallet integration

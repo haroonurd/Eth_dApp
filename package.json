@@ -1,23 +1,15 @@
 {
-  "name": "ethereum-dapp-template",
+  "name": "dapp-frontend",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "test": "hardhat test",
-    "coverage": "hardhat coverage",
-    "lint:fix": "eslint --fix .",
-    "start": "cd frontend && npm run start",
-    "build": "cd frontend && npm run build"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom"
   },
-  "devDependencies": {
-    "chai": "^4.3.7",
-    "ethereum-waffle": "^3.4.4",
-    "ethers": "^6.9.0",
-    "hardhat": "^2.17.0",
-    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
-    "solidity-coverage": "^0.8.2"
-  },
-  "engines": {
-    "node": ">=16"
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ethers": "^6.9.0"
   }
 }
